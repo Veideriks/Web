@@ -1,0 +1,60 @@
+body {
+    position: relative;
+    background: url(https://kartinkin.net/pics/uploads/posts/2022-08/1660844409_41-kartinkin-net-p-futurama-oboi-krasivo-53.jpg);
+    margin: 100px;
+}
+
+header{
+    position: relative;
+    bottom: 100px;
+    right: 100px;
+}
+
+footer{
+    position: absolute;
+    left: 900px;
+    top: 700px;
+    background-color: aliceblue;
+    background-blend-mode:color;
+    color:brown;
+    border-color: rgb(43, 226, 113);
+}
+#name{
+    position: absolute;
+    left: 900px;
+    top: 200px;
+}
+#message{
+    position: absolute;
+    left: 1000px;
+    top: 400px;
+}
+#result{
+    position: absolute;
+    left: 1000px;
+    top: 500px;
+    max-height: 50px;
+    max-width: 50px;
+    min-height: 100px;
+    min-width: 300px;
+    background-color: azure;
+}
+
+.btn1{
+    max-height: 50px;
+    max-width: 50px;
+    min-height: 20px;
+    min-width: 100px;
+    position:absolute;
+    left: 1100px;;
+    top:200px;
+}
+.btn2{
+    position:absolute;
+    max-height: 50px;
+    max-width: 50px;
+    min-height: 20px;
+    min-width: 100px;
+    left: 1200px;;
+    top:400px;
+}
